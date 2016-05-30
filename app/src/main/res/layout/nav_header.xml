@@ -37,7 +37,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:textSize="24sp"
-        android:text="Gank.io"
+        android:text="@string/nav"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
 
 
