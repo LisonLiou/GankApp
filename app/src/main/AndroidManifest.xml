@@ -61,6 +61,15 @@
 
         <service android:name="cc.lison.android.gank.service.ImageImproveService" />
 
+        <service
+            android:name="com.umeng.update.net.DownloadingService"
+            android:process=":DownloadingService" >
+        </service>
+        <activity
+            android:name="com.umeng.update.UpdateDialogActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+        </activity>
+
         <meta-data
             android:name="UMENG_APPKEY"
             android:value="574988f3e0f55a95ee000355"></meta-data>

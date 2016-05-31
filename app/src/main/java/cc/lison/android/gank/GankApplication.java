@@ -2,7 +2,9 @@ package cc.lison.android.gank;
 
 import android.app.Application;
 import android.content.Context;
+
 import com.orhanobut.logger.Logger;
+import com.umeng.update.UmengUpdateAgent;
 
 public class GankApplication extends Application {
 
@@ -17,6 +19,8 @@ public class GankApplication extends Application {
         super.onCreate();
         context = getApplicationContext();
         initLogger();
+
+        UmengUpdateAgent.update(this);
     }
 
     private void initLogger() {

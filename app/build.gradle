@@ -73,4 +73,9 @@ dependencies {
     compile 'com.vlonjatg.android:progress-activity:1.1.1'
     compile 'net.grandcentrix.tray:tray:0.9.2'
     compile files('libs/Baidu_MobAds_SDK.jar')
+    compile files('libs/umeng-update-v2.8.0.jar')
+
+    compile 'com.squareup.okio:okio:1.6.0'
+    compile 'com.squareup.wire:wire-runtime:2.1.2'
+
 }

@@ -40,6 +40,4 @@
         android:text="@string/nav"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
 
-
-
 </RelativeLayout>
